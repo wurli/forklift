@@ -141,7 +141,7 @@ if [[ -n "$tmux_window" ]]; then
     tmux rename-window -t "$tmux_window" "$branch_name"
 fi
 
-branch_name_full=copilot/$branch_name
+branch_name_full=forklift/$branch_name
 
 # -----------------------------------------------------------------------------
 #    Create the branch
