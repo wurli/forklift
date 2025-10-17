@@ -28,21 +28,17 @@ You can also run Forklift from the shell:
 forklift [<branch-name>]
 ```
 
-## The problem
+## Why Use Forklift?
 
-While agentic CLI tools can be very helpful for some tasks, there is a
-significant cost associated with them in that they *take the developer's focus
-away from the code*. The developer usually needs to invest significant time and
-attention, first to babysit the agent while it runs, then to clean up the
-project when it's finished.
+Until I came up with this workflow I found there was usually too much mental
+overhead associated with AI coding for me to want to use it. Forklift solves
+these problems:
 
-## The solution
-
-Forklift works by asking the user once for a task, then setting the agent to
-work with free reign over a separate, dedicated [Git
-worktree](https://git-scm.com/docs/git-worktree). When the agent finishes
-working the worktree is deleted, leaving the user free to inspect the changes,
-e.g. using `git diff`.
+-   I don't have to babysit the agent while it works
+-   I don't have to clean up after it
+-   Once I'm done writing the prompt I can _immediately_ get back to what I was
+    doing
+-   I'm free to review the AI's work in my own time using Git
 
 ## Disclaimer
 
