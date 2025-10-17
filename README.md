@@ -2,7 +2,10 @@
 
 A shell script to ease the cognitive load of working with agentic CLI tools.
 
-(Note: currently only supports the Copilot CLI).
+> [!NOTE]
+> Currently only supports the Copilot CLI.
+
+![Demo](https://github.com/user-attachments/assets/b8bedb2d-8949-4455-b6bc-981f9f4fa8b0)
 
 ## Installation
 You can use `curl` to install Forklift from GitHub. Make sure to install the
