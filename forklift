@@ -171,7 +171,7 @@ echo ""
 # -----------------------------------------------------------------------------
 task_description="$task_description
 
-As you work, summarise your reasoning in a human-readable file, _COPILOT_SUMMARY.md.
+As you work, summarise your reasoning in a human-readable file, _AGENT_SUMMARY.md.
 
 IMPORTANT RULES:
 *   Do not modify files outside of this worktree.
