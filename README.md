@@ -2,6 +2,8 @@
 
 A shell script to ease the cognitive load of working with agentic CLI tools.
 
+(Note: currently only supports the Copilot CLI).
+
 ## Installation
 You can use `curl` to install Forklift from GitHub. Make sure to install the
 script to a location on the `PATH`!
@@ -41,4 +43,6 @@ worktree](https://git-scm.com/docs/git-worktree). When the agent finishes
 working the worktree is deleted, leaving the user free to inspect the changes,
 e.g. using `git diff`.
 
+## Disclaimer
 
+Forklift currently gives the agent free-reign.
