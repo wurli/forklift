@@ -1,4 +1,4 @@
-# Forklift
+# 🛠️ Forklift 🛠️
 
 A shell script to ease the cognitive load of working with agentic CLI tools.
 
