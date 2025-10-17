@@ -48,5 +48,5 @@ e.g. using `git diff`.
 
 Forklift currently gives the agent free-reign over its worktree, but does
 **not** provide any guardrails beyond instructions in the initial prompt to
-stop it changing other files or Git branches. Please only use Forklift to the
-extent that you trust the agent you're using!
+stop it changing other files or Git branches. Please only trust Forklift to the
+extent that you trust the agent!
