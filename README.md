@@ -9,8 +9,7 @@ You can use `curl` to install Forklift from GitHub. Make sure to install the
 script to a location on the `PATH`!
 
 ``` sh
-# curl ...
-# chmod +x
+curl https://raw.githubusercontent.com/wurli/forklift/refs/heads/main/forklift -o "$HOME/.local/bin/forklift"
 ```
 
 ## Usage
@@ -30,10 +29,9 @@ forklift [<branch-name>]
 
 While agentic CLI tools can be very helpful for some tasks, there is a
 significant cost associated with them in that they *take the developer's focus
-away from the code*. When using an AI CLI tool, the developer usually needs to
-babysit the agent by confirming the tools it should be allowed to use, whilst
-also pausing their own work on the code so they don't step on the agent's
-robotic toes.
+away from the code*. The developer usually needs to invest significant time and
+attention, first to babysit the agent while it runs, then to clean up the
+project when it's finished.
 
 ## The solution
 
@@ -45,4 +43,7 @@ e.g. using `git diff`.
 
 ## Disclaimer
 
-Forklift currently gives the agent free-reign.
+Forklift currently gives the agent free-reign over its worktree, but does
+**not** provide any guardrails beyond instructions in the initial prompt to
+stop it changing other files or Git branches. Please only use Forklift to the
+extent that you trust the agent you're using!
